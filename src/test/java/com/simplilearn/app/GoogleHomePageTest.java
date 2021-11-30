@@ -14,7 +14,7 @@ public class GoogleHomePageTest {
 
 	// step 1: create a source test url
 	String siteURl = "https://www.google.com/";
-	String driverPath = "drivers/chromedriver.exe";
+	String driverPath = "drivers/linux/chromedriver";
 	WebDriver driver;
 
 	@BeforeEach

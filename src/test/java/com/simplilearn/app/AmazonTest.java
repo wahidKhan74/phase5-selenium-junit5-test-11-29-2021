@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class AmazonTest {
 	// step 1: create a source test url
 	String siteURl = "https://www.amazon.in/";
-	String driverPath = "drivers/chromedriver.exe";
+	String driverPath = "drivers/linux/chromedriver";
 	WebDriver driver;
 
 	@BeforeEach
